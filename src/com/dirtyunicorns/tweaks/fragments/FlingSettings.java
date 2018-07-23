@@ -324,7 +324,7 @@ public class FlingSettings extends ActionFragment implements
             case DIALOG_RESET_CONFIRM:
             case DIALOG_RESTORE_PROFILE:
             case DIALOG_SAVE_PROFILE:
-                return MetricsProto.MetricsEvent.CUSTOM_QUICK_TILES;
+                return MetricsProto.MetricsEvent.DUI_SETTINGS;
             default:
                 return super.getDialogMetricsCategory(dialogId);
         }
@@ -730,6 +730,6 @@ public class FlingSettings extends ActionFragment implements
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.CUSTOM_QUICK_TILES;
+        return MetricsProto.MetricsEvent.DUI_SETTINGS;
     }
 }

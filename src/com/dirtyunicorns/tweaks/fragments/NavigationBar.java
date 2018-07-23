@@ -206,6 +206,6 @@ public class NavigationBar extends SettingsPreferenceFragment implements Prefere
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.CUSTOM_QUICK_TILES;
+        return MetricsProto.MetricsEvent.DUI_SETTINGS;
     }
 }
