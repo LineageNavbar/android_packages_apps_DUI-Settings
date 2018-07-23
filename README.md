@@ -1,4 +1,4 @@
-# android_packages_apps_DUI-Settings
+# DUI-Settings
 
 Code to provide options in Settings for configuring the DUI navigation bar.
 
