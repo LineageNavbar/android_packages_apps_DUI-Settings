@@ -1,0 +1,15 @@
+@echo off
+echo. > x
+rgrep ActionPreference *.java >> x
+rgrep CategoryPreference *.java >> x
+rgrep CustomSeekBarPreference *.java >> x
+rgrep GlobalCheckBoxPreference *.java >> x
+rgrep GlobalSettingSwitchPreference *.java >> x
+rgrep PackageListAdapter *.java >> x
+rgrep ScreenshotEditPackageListAdapter *.java >> x
+rgrep SecureCheckBoxPreference *.java >> x
+rgrep SecureSettingListPreference *.java >> x
+rgrep SecureSettingSwitchPreference *.java >> x
+rgrep SystemCheckBoxPreference *.java >> x
+rgrep SystemSettingListPreference *.java >> x
+rgrep SystemSettingSwitchPreference *.java >> x
